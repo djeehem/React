@@ -30,6 +30,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import { Navbar, NavbarBrand } from 'reactstrap';
 import './App.css';
+import Menu from './components/MenuComponent';
 
 class App extends Component {
   render() {
@@ -40,6 +41,7 @@ class App extends Component {
             <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
           </div>
         </Navbar>
+        <Menu />
       </div>
       );
   }
